@@ -1,0 +1,72 @@
+{
+    "name": "Writer Dark",
+    "author": "Nikita Prokopov",
+    "variables":
+    {
+        "accent": "#55bbe7",
+        "highlight": "#fffd54",
+        "red": "#ef786c",
+        "foreground": "#cbcccc"
+    },
+    "globals":
+    {
+        "foreground":                  "var(foreground)",
+        "background":                  "#1b1b1b",
+        "caret":                       "var(accent)",
+        "accent":                      "var(accent)",
+        "line_highlight":              "#222",
+        "misspelling":                 "#5fb654",
+        "selection":                   "#29434e",
+        "selection_border_width":      "0",
+        "inactive_selection":          "#464646",
+        "selection_corner_radius":     "0",
+        "highlight":                   "var(highlight)",
+        "find_highlight_foreground":   "#000",
+        "find_highlight":              "var(highlight)",
+        "brackets_options":            "foreground underline",
+        "brackets_foreground":         "var(accent)",
+        "bracket_contents_options":    "foreground underline",
+        "bracket_contents_foreground": "var(accent)",
+        "tags_options":                "foreground",
+        "tags_foreground":             "var(accent)"
+    },
+    "rules":
+    [
+        {"scope":      "markup.heading",
+         "font_style": "bold"},
+
+        {"scope":      "markup.italic",
+         "font_style": "italic"},
+
+        {"scope":      "markup.bold",
+         "font_style": "bold"},
+
+        {"scope":      "markup.bold & markup.italic",
+         "font_style": "bold italic"},
+
+        {"scope":      "markup.raw, meta.code-fence",
+         "background": "#262626"},
+
+        {"scope":      "comment, punctuation.definition.link, punctuation.definition.image, punctuation.definition.metadata, markup.underline.link",
+         "foreground": "#706f70"},
+
+        {"scope":      "invalid",
+         "foreground": "var(red)",
+         "background": "color(var(red) alpha(0.2))"},
+
+        {"scope": "markup.inserted",
+         "foreground": "hsl(100, 50%, 50%)"},
+
+        {"scope": "markup.deleted",
+         "foreground": "hsl(2, 65%, 50%)"},
+         
+        {"scope": "markup.changed",
+         "foreground": "hsl(30, 85%, 50%)"},
+
+        {"scope": "markup.ignored",
+         "foreground": "#aaa"},
+
+        {"scope": "markup.untracked",
+         "foreground": "#aaa"}
+    ]
+}
