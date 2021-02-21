@@ -1,0 +1,5 @@
+
+.gitattributes export-ignore
+.github/ export-ignore
+specimen.md export-ignore
+*.png export-ignore
