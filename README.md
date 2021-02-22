@@ -13,6 +13,32 @@ A color scheme for focused long-form writing, mimicking fantastic [iA Writer](ht
 <img src="screenshot_light.png" width="780px">
 <img src="screenshot_dark.png" width="780px">
 
+## Recommended settings
+
+Font: [Writer](https://github.com/tonsky/font-writer).
+
+Preferences:
+
+```
+{
+  "caret_extra_width": 2,
+  "draw_centered": true,
+  "draw_indent_guides": false,
+  "draw_white_space": ["none"],
+  "font_face": "Writer",
+  "font_size": 16,
+  "gutter": false,
+  "highlight_line": false,
+  "line_padding_bottom": 4,
+  "line_padding_top": 4,
+  "margin": 10,
+  "scroll_context_lines": 2
+  "scroll_past_end": 0.5,
+  "word_wrap": true,
+  "wrap_width": 72,
+}
+```
+
 ## Installation
 
 First, install Writer via Package Control:
