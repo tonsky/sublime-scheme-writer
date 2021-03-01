@@ -5,7 +5,7 @@ A color scheme for focused long-form writing, mimicking fantastic [iA Writer](ht
 - Monochromatic color scheme for less distraction.
 - Optimized for Markdown.
 - Light and Dark versions.
-- Pairs well with [iA Writer Mono](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Mono/Static) at 16 px.
+- Pairs well with [Writer font](https://github.com/tonsky/font-writer) at 16 px.
 
 ## Screenshots
 
@@ -14,8 +14,6 @@ A color scheme for focused long-form writing, mimicking fantastic [iA Writer](ht
 <img src="screenshot_dark.png" width="780px">
 
 ## Recommended settings
-
-Font: [Writer](https://github.com/tonsky/font-writer).
 
 Preferences:
 
