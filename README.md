@@ -30,7 +30,7 @@ Preferences:
   "line_padding_bottom": 4,
   "line_padding_top": 4,
   "margin": 10,
-  "scroll_context_lines": 2
+  "scroll_context_lines": 2,
   "scroll_past_end": 0.5,
   "word_wrap": true,
   "wrap_width": 72,
