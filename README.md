@@ -22,7 +22,7 @@ Preferences:
   "caret_extra_width": 2,
   "draw_centered": true,
   "draw_indent_guides": false,
-  "draw_white_space": ["none"],
+  "draw_white_space": ["selection_none"],
   "font_face": "Writer",
   "font_size": 16,
   "gutter": false,
