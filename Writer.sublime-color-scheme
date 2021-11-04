@@ -47,8 +47,14 @@
         {"scope":      "markup.raw, meta.code-fence",
          "background": "#edeeed"},
 
-        {"scope":      "comment, punctuation.definition.link, punctuation.definition.image, punctuation.definition.metadata, markup.underline.link",
+        {"scope":      "comment, punctuation.definition.link, punctuation.definition.image, punctuation.definition.metadata, meta.link.inline, meta.image.inline",
          "foreground": "#c6c5c2"},
+
+        {"scope":      "meta.link.inline.description, meta.image.inline.description",
+         "foreground": "var(black)"},        
+
+        {"scope":      "markup.underline.link",
+         "font_style": "underline"},
 
         {"scope":      "invalid",
          "foreground": "var(red)",
